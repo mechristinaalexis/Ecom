@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="ecommerce.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="logo.png" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar" class="classNavbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h1>#Lets_talk</h1>
+      <p>LEAVE A MESSAGE, We love to hesr from you!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="cloth1.jpeg" alt="" /></td>
+            <td>Cartoon Astronut T-shirts</td>
+            <td>$132.4</td>
+            <td><input type="number" value="1" id="" /></td>
+            <td>$326</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="cloth4.webp" alt="" /></td>
+            <td>Red maxi dress</td>
+            <td>$132.4</td>
+            <td><input type="number" value="1" id="" /></td>
+            <td>$326</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="cloth2.webp" alt="" /></td>
+            <td>Beige comfy sweatshirt</td>
+            <td>$132.4</td>
+            <td><input type="number" value="1" id="" /></td>
+            <td>$326</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Totals</td>
+            <td>$54</td>
+          </tr>
+
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$54</strong></td>
+          </tr>
+        </table>
+
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1"></footer>
+
+    <script
+      src="https://kit.fontawesome.com/ab3b39e762.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="ecommerce.js"></script>
+  </body>
+</html>
